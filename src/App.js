@@ -5,7 +5,7 @@ function Profile_Img() {
     <div>
       <img
         className="profile-image"
-        src="image icon.jpeg"
+        src="profile-img.jpeg"
         alt="Avatar"
         style={{ width: 150 }}
       ></img>

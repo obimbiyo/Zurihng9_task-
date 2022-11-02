@@ -18,8 +18,8 @@ h1 {
 }
 
 .profile-image {
-  border-radius: 300px;
-  height: 120px;
+  border-radius: 50%;
+  height: 150px;
   width: 100px;
   margin-left: 35%;
   padding-top: 30px;
