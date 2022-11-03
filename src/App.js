@@ -2,7 +2,7 @@ import React from "react";
 
 function Profile_Img() {
   return (
-    <div>
+    <div id="profile_img">
       <img
         className="profile-image"
         src="profile-img.jpeg"
@@ -15,27 +15,31 @@ function Profile_Img() {
 <br />;
 function Slack_Img() {
   return (
-    <a href="https://app.slack.com/client/T042F7V19Q8/D048FMZEB3Q/rimeto_profile/U049C1CQQ00">
-      <img
-        className="icon-image"
-        src="slack.png"
-        alt="Avatar"
-        style={{ width: 30 }}
-      ></img>
-    </a>
+    <div id="slack">
+      <a href="https://app.slack.com/client/T042F7V19Q8/D048FMZEB3Q/rimeto_profile/U049C1CQQ00">
+        <img
+          className="icon-image"
+          src="slack.png"
+          alt="Avatar"
+          style={{ width: 30 }}
+        ></img>
+      </a>
+    </div>
   );
 }
 <br />;
 function GitHub_Img() {
   return (
-    <a href="https://github.com/obimbiyo">
-      <img
-        className="icon-image"
-        src="github.png"
-        alt="Avatar"
-        style={{ width: 30 }}
-      ></img>
-    </a>
+    <div>
+      <a href="https://github.com/obimbiyo">
+        <img
+          className="icon-image"
+          src="github.png"
+          alt="Avatar"
+          style={{ width: 30 }}
+        ></img>
+      </a>
+    </div>
   );
 }
 <br />;
@@ -48,7 +52,7 @@ function Name() {
 }
 function Twitter() {
   return (
-    <div>
+    <div id="twitter">
       <button type="button">
         <span></span>
         <a href="https://twitter.com/OOnyekwo?t=7b3EHaKsVabUmpP7vETrBA&S=09">
@@ -60,7 +64,7 @@ function Twitter() {
 }
 function Btn_Zuri() {
   return (
-    <div>
+    <div btn_zuri>
       <button type="button">
         <span></span>
         <a href="https://training.zuri.team/">Zuri Team</a>
@@ -70,7 +74,7 @@ function Btn_Zuri() {
 }
 function Books() {
   return (
-    <div>
+    <div id="books">
       <button type="button">
         <span></span>
         <a href="http://books.zuri.team">Zuri Books</a>
@@ -80,7 +84,7 @@ function Books() {
 }
 function Book_Python() {
   return (
-    <div>
+    <div id="book_python">
       <button type="button">
         <span></span>
         <a href="https://books.zuri.team/">Python Books</a>
@@ -90,7 +94,7 @@ function Book_Python() {
 }
 function Pitch() {
   return (
-    <div>
+    <div id="pitch">
       <button type="button">
         <span></span>
         <a href="https://background.zuri.team/">Background Check For Coders</a>
@@ -100,7 +104,7 @@ function Pitch() {
 }
 function Book_Design() {
   return (
-    <div>
+    <div id="book_design">
       <button type="button">
         <span></span>
         <a href="https://books.zuri.team/design-rules">Design Books</a>
